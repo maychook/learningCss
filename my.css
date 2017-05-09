@@ -52,5 +52,43 @@ h2:hover
 {
     color: crimson;
 }
+/*--------------------------------------------*/
+                /* will include only the item that it's ID is 'container' and it is a div only*/
+div#container> ul
+{
+    border: 1px solid black;
+}
+/*--------------------------------------------*/
+                /* a - link examples*/
+a:link /*normal*/
+{
+    color:blue; 
+}
+a:visited /*after clicked*/
+{
+    color:palevioletred; 
+}
+a:hover /*on mouse hover*/
+{
+    color:darkorange; 
+}
+a[href="http://google.com"] /*only on links directed to the written adress (google.com) */
+{
+    color: #1f6053; /*dark green*/
+}
+/*--------------------------------------------*/
+li:nth-child(4) /* on the second child of the list items*/
+{
+    color:purple;
+    font-size: 19px;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*--------------------more information about css coding can be found---------------*/
+/*--------------------------------on github under LeonLiver------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 
 
