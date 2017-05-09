@@ -1,0 +1,56 @@
+/*--------------------------------------------*/
+p
+{
+    color: pink;
+    font-size: 50px;
+}
+/*--------------------------------------------*/
+h1
+{
+    color: aquamarine;
+    font-size: 40px;
+}
+/*--------------------------------------------*/
+body
+{
+    font-family: "lucida sans unicode";
+    
+}
+/*--------------------------------------------*/
+                /* use  .  to call a class */
+.redLinks
+{
+    border: red;
+}
+/*--------------------------------------------*/
+                /* use  #  to call a specipic id */
+#firstLink
+{
+    border:1px solid blueviolet;
+}
+/*--------------------------------------------*/
+                /* use * to include all */
+*
+{
+    color: blue;
+}
+/*--------------------------------------------*/
+                /* you can use * also after a specific tag if you use # or just over every tag you choose */
+header *
+{
+    border: 1px solid black;
+}
+/*--------------------------------------------*/
+                /* for every a in list item */
+li a            
+{
+    color:chartreuse;
+}
+/*--------------------------------------------*/
+                /* on mouse over example - for every h2 element on mouse hover */
+h2:hover
+{
+    color: crimson;
+}
+
+
